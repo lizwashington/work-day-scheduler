@@ -1,0 +1,83 @@
+body {
+    font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .display {
+    font-family: 'Cardo', Garamond, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  .hour {
+    background-color: #FF7A63;
+    color: #275244;
+    border-top: 1px dashed #275244;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: #275244;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  
+  .present {
+    background-color: #FF7A63;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .future {
+    background-color: #FDF8F5;
+    color: rgb(110, 78, 78);
+    text-transform: capitalize;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #275244;
+    color: #FFFAF0;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
